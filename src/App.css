@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    background-color: #272727;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+}
+
+.square {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.square:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
